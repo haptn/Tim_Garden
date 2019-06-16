@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Fruits </title>
+		<style>
+			body {font-family: Arial;
+                  background-color: lightsalmon}
+            
+            * {margin: 0; padding: 0}
+            
+			#header {width: 80%; height: 70px;
+                     background-color: whitesmoke;
+                     margin: auto; padding-left: 2%;
+                     line-height: 50px; box-sizing: border-box}
+            
+            #hello {width: 300px; height: 65px;
+                	font-size: 25px; font-family: Musa Ornata;
+                	color: green;
+                	line-height: 65px;
+                	margin-left: 0.7%;
+                	float: left}
+			
+            #menu {width: 80%; height: 40px;
+                   background-color: forestgreen;
+                   margin: auto;
+                   box-sizing: border-box}
+            
+            ul#u {height: 40px;
+                         margin-left: 11px;
+                         box-sizing: border-box;
+                         list-style: none;
+                         float: left}
+            
+            ul#u > li {width: 150px; height: 40px;
+                       font-size: 16.5px;
+                       padding-top: 1.5%;
+                       text-align: center;
+                       list-style: none;
+                       position: relative; float: left;
+                       box-sizing: border-box}
+            
+            ul#u li:hover {background-color: lemonchiffon}
+            ul#u li:hover ul {display: block}
+            ul#u > li:hover .a {color: darkslategrey;
+                              font-weight: 600;
+                              text-decoration: none}
+            
+            #u > li > a {color: aliceblue;
+                         text-decoration: none}
+            
+            
+            #se {width: 25px; height: 25px;
+                 float: right;
+                 margin: 0.73% 3.6% 0 0;
+                 position: relative}
+            
+            #sebox {width: 200px; height: 30px;
+                    border: 2.1px solid aliceblue;
+                    color: gainsboro;
+                    line-height: 30px;
+                    margin: 0.25% 3.6% 0 0; padding-left: 5px;
+                    position: absolute; right: 110px}
+                        
+            /*=====================================================*/
+			
+            #content {width: 80%; height: 780px;
+                      background-color: white;
+                      margin: auto; margin-top: 0%;
+                      box-sizing: border-box}
+			
+			table, th, td {border: black solid 1px;
+						   border-collapse: collapse}
+			
+			#tbl {width: 70%; height: auto;
+				  text-align: center;
+				  margin: auto; margin-top: 0%}
+			
+			#tbl h4, ul {text-align: justify; margin: 0 0 3% 6%}
+			
+            /*=====================================================*/
+			
+			#footer {width: 80%; height: 40px;
+                     background-color: forestgreen; color: lightgray;
+                     margin: auto; margin-top: 0%; padding-left: 4%; padding-top: 0.9%;
+                     box-sizing: border-box}
+		</style>
+    </head>
+	
+    <body>
+		<div id = "header">
+			<a href="Home.html">
+				<img src = "MyGarden.png" style = "width: 115px; height: 60px; margin: 0.4%; float: left">
+			</a>
+			<div id = "hello"> Tim's Garden </div>
+            <img src = "Header_Wheelbarrow.png" style = "width: 115px; height: 57px; margin: 0.55% 3% 0 0; float: right">
+		</div>
+		
+        <div id = "menu">
+            <ul id = "u">
+                <li><a href="Home.html" class = "a"> Home </a></li>
+                <li><a href="Fruits.html" class = "a"> Fruits </a></li>
+                <li><a href="Veggies.html" class = "a"> Veggies </a></li>
+                <li><a href="Flowers.html" class = "a"> Flowers </a></li>
+                <li><a href="Contact.html" class = "a"> Contact </a></li>
+            </ul>
+            
+            <img src = "SearchIcon.png" id = "se"/>
+            <div id = "sebox"> Searching... </div>
+        </div>
+        
+        <!--======================================-->
+        <div id = "content">
+			<table id = "tbl">
+				<tr>
+					<th><h3> Picture </h3></th>
+					<th><h3> Description </h3></th>
+				</tr>
+				
+				<tr>
+					<td><img src = "fruit(1).png" style = "width: 115px; height: 100px"></td>
+					<td>
+						<h4><i> Watermelon </i></h4>
+						<ul>
+							<li> Sweet </li>
+							<br>
+							<li> Popular fruit of Summer </li>
+							<br>
+							<li> Usually consumed fresh in slices </li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><img src = "fruit(2).png" style = "width: 115px; height: 100px"></td>
+					<td>
+						<h4><i> Banana </i></h4>
+						<ul>
+							<li> Raw bananas (not including the peel) contain negligible fat </li>
+							<br>
+							<li> Bananas are a staple starch for many tropical populations </li>
+							<br>
+							<li> Banana pancakes are popular in South Asia and Southeast Asia </li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><img src = "fruit(3).png" style = "width: 130px; height: 100px"></td>
+					<td>
+						<h4><i> Orange </i></h4>
+						<ul>
+							<li> Rich in vitamin C and do not spoil easily </li>
+							<br>
+							<li> Are used mostly for juice extraction </li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><img src = "fruit(4).png" style = "width: 90px; height: 100px"></td>
+					<td>
+						<h4><i> Apple </i></h4>
+						<ul>
+							<li> A sweet and edible fruit </li>
+							<br>
+							<li> Apple trees are large if grown from seed </li>
+							<br>
+							<li> Can be eaten raw, produced juice or an ingredient in desserts </li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><img src = "fruit(5).png" style = "width: 115px; height: 100px"></td>
+					<td>
+						<h4><i> Durian </i></h4>
+						<ul>
+							<li> Large, smelly and thorny </li>
+							<br>
+							<li> Popular in tropical regions, especially in Southeast Asia </li>
+							<br>
+							<li> The seeds can also be eaten when cooked </li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+        </div>
+        
+        <!--======================================-->
+        
+        <div id = "footer">
+            <span style = "color: whitesmoke"> This &copy; belongs to Tim Kamper </span>
+        </div>
+    </body>
+</html>
